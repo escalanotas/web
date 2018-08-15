@@ -1,0 +1,28 @@
+.mi-boton {
+	display: inline-block; /*bloque lineal*/
+	padding: 10px; /*espacio alrededor texto*/
+	background-color: #03a1d3; /*color botón*/
+	color: #ffffff; /*color texto*/
+	text-decoration: none; /*decoración texto*/
+	text-transform: uppercase; /*capitalización texto*/
+	font-family: 'latobold', Arial, Helvetica; /*tipografía texto*/
+	text-align: center;/*texto centrado*/
+}
+
+.mi-boton:hover{
+	background: #2e518b;
+}
+
+nav{
+	display: flex;
+	justify-content: space-around;
+}
+
+@media (max-width: 600px){
+	nav{
+	flex-direction: column;
+	}
+	.mi-boton{
+	margin: 5px 0;
+	}
+}
