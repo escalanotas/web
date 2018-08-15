@@ -1,0 +1,18 @@
+.boton-circular {
+	display: inline-block; /*bloque lineal*/
+	padding-top: 10px;
+	padding-bottom: 10px; /*borde inferior*/
+	/*padding: 10px; espacio alrededor texto*/
+	background-color: #03a1d3; /*color botón*/
+	color: #ffffff; /*color texto*/
+	text-decoration: none; /*decoración texto*/
+	text-transform: uppercase; /*capitalización texto*/
+	font-family: 'latobold', Arial, Helvetica; /*tipografía texto*/
+	border-radius: 10px; /*bordes redondos*/
+	text-align: center;
+	width: 100%;
+}
+.boton-circular:hover{
+	background: #2e518b;
+}
+}
